@@ -1,63 +1,75 @@
-🚀 Flutter Lab – Tổng hợp 10 Dự Án Từ Cơ Bản Đến Nâng Cao
-Đây là bộ sưu tập gồm 10 bài lab Flutter, được thực hiện trong quá trình học và luyện tập từ cơ bản đến nâng cao. Mỗi bài là một ứng dụng thực tế nhỏ, giúp rèn luyện kỹ năng lập trình Flutter hiệu quả.
+# Flutter Lab
 
-📋 Danh Sách Bài Lab
-Bài Lab	Mô Tả
-Mi Card	Ứng dụng danh thiếp cá nhân với hình ảnh, tên và nghề nghiệp.
-Dicee	App tung xúc xắc với hai viên xúc xắc thay đổi mặt ngẫu nhiên.
-Magic 8 Ball	Trả lời ngẫu nhiên các câu hỏi của người dùng – theo phong cách 8 bóng.
-Xylophone	Ứng dụng nhạc cụ ảo phát âm thanh theo các phím màu sắc.
-Quizzler	App trắc nghiệm đơn giản, có chấm điểm và lưu trạng thái câu hỏi.
-Destini	Ứng dụng kể chuyện tương tác – người dùng quyết định hướng đi câu chuyện.
-BMI Calculator	Tính chỉ số BMI dựa trên chiều cao và cân nặng người dùng.
-Clima	Ứng dụng thời tiết kết nối với OpenWeatherMap API.
-I Am Poor	App đơn giản hiển thị tiêu đề “I Am Poor”.
-I Am Rich	App với hình kim cương lớn ở giữa màn hình cùng tiêu đề “I Am Rich”.
+Tổng hợp 10 bài lab Flutter từ cơ bản đến nâng cao, được thực hiện trong quá trình học.
 
-📁 Cấu Trúc Thư Mục
-bash
-Sao chép
-Chỉnh sửa
+## 🧠 Danh sách:
+
+| Tên Bài        | Mô Tả                                               |
+| -------------- | --------------------------------------------------- |
+| Mi Card        | Tạo danh thiếp cá nhân với ảnh, tên và nghề nghiệp. |
+| Dicee          | App tung xúc xắc, đổi mặt ngẫu nhiên.               |
+| Magic 8 Ball   | Trả lời ngẫu nhiên câu hỏi người dùng đưa ra.       |
+| Xylophone      | Nhạc cụ ảo có thể phát âm thanh theo màu sắc.       |
+| Quizzler       | App trắc nghiệm có chấm điểm, lưu trạng thái.       |
+| Destini        | App kể chuyện tương tác với người dùng.             |
+| BMI Calculator | Tính chỉ số BMI theo chiều cao và cân nặng.         |
+| Clima          | App thời tiết, lấy dữ liệu từ OpenWeatherMap API.   |
+| I am Poor      | Hiển thị tiêu đề I am Poor và sự nghèo              |
+| I am Rich      | Hiển thị tiêu đề I am Rich kim cương ở giữa	        |
+
+## 📁 Cấu trúc thư mục chi tiết
+
+```
 lab_flutter/
 ├── mi_card/
+│   ├── lib/
+│   └── README.md
 ├── dicee/
+│   ├── lib/
+│   └── README.md
 ├── magic_8_ball/
+│   ├── lib/
+│   └── README.md
 ├── xylophone/
+│   ├── lib/
+│   └── README.md
 ├── quizzler/
+│   ├── lib/
+│   └── README.md
 ├── destini/
+│   ├── lib/
+│   └── README.md
 ├── bmi_calculator/
+│   ├── lib/
+│   └── README.md
 ├── clima/
+│   ├── lib/
+│   └── README.md
 ├── i_am_poor/
-└── i_am_rich/
-Mỗi thư mục chứa:
+│   ├── lib/
+│   └── README.md
+├── i_am_rich/
+│   ├── lib/
+│   └── README.md
+```
 
-Mã nguồn trong thư mục lib/
+Mỗi thư mục bài học chứa source code Flutter trong thư mục `lib/` và có thể có file `README.md` riêng cho từng bài nếu cần mô tả chi tiết.
 
-(Tuỳ chọn) File README.md riêng cho mô tả chi tiết của từng bài
+## 📦 Cách chạy từng bài
 
-⚙️ Hướng Dẫn Chạy Mỗi Bài
-Mở terminal hoặc VS Code.
+1. Mở terminal hoặc VS Code.
+2. Di chuyển vào thư mục của bài muốn chạy. Ví dụ:
+   ```bash
+   cd mi_card
+   ```
+3. Cài đặt gói cần thiết (chạy một lần):
+   ```bash
+   flutter pub get
+   ```
+4. Chạy ứng dụng:
+   ```bash
+   flutter run
+   ```
 
-Di chuyển đến thư mục bài bạn muốn chạy. Ví dụ:
+> 💡 Lưu ý: Đảm bảo bạn đã cài đặt đầy đủ [Flutter SDK](https://docs.flutter.dev/get-started/install) và cấu hình thiết bị ảo hoặc kết nối thiết bị thật để chạy ứng dụng.
 
-bash
-Sao chép
-Chỉnh sửa
-cd mi_card
-Cài đặt các gói cần thiết:
-
-bash
-Sao chép
-Chỉnh sửa
-flutter pub get
-Chạy ứng dụng:
-
-bash
-Sao chép
-Chỉnh sửa
-flutter run
-⚠️ Yêu cầu:
-
-Đã cài Flutter SDK
-
-Có thiết bị thật hoặc trình giả lập để chạy ứng dụng
